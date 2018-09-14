@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>form validation challenge</title>
+</head>
+<body>
+  <h1>Registration From</h1>
+  <form class="" action="index.html" method="post">
+    <p> <label for="User id"></label> User id:
+      <input type="text" name="User id" min="5" max="12" required placeholder="Required and must be a length from 5 to 12."></p>
+
+      <p> <label for="Password"></label> Password:
+        <input type="password" name="password" min="7" max="12" required placeholder="Required and must be a length from 7 to 12."></p>
+
+        <p> <label for="Name"></label> Name:
+          <input type="text" name="Name" pattern="[a-z ]*" required placeholder="Required alphabets only"></p>
+
+          <p> <label for="Address"></label> Address:
+            <input type="text" name="Address" value="" placeholder="optional" > </p>
+
+            <p> <label for="Country"></label> Country:
+              <select class="Country" name="" required>
+                <option value="Country">Please select a Country</option>
+                <option value="Country">South Africa</option>
+                <option value="Country">Congo</option>
+                <option value="Country">Egypt</option>
+              </select> </p>
+
+              <p> <label for="Zip Code"></label> Zip Code:
+                <input type="Zip Code" name="Date" value="" required placeholder="Required. Must be numeric only">  </p>
+
+                <p> <label for="Email"></label> Email:
+                  <input type="text" name="Email" value="" required placeholder="Required. Must be a valid email"> </p>
+
+                  <p><label for=""></label>Sex:
+                    <input type="radio" name="Often" value="Male" required placeholder="Required"> Male
+                    <input type="radio" name="Often" value="Female" required placeholder="Required"> Female</p>
+
+                    <p><label for=""></label>Language:
+                      <input type="checkbox" name="English" value="English" required placeholder="Required">English
+                      <input type="checkbox" name="English" value="Non English" required placeholder="Required">Non English</p>
+
+                      <p>About:
+                        <textarea name="name" rows="8" cols="80" placeholder="Optional"></textarea></p>
+                        <p> <input type="submit" name="submit" value="Submit"></p>
+
+
+                      </form>
+
+
+                    </body>
+                    </html>
