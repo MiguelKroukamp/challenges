@@ -1,0 +1,109 @@
+/* General setup */
+/* Remember to always comment*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1400px;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: 'PT Sans Narrow', sans-serif;
+  letter-spacing: 1.2px;
+  word-spacing: 1px;
+}
+ .navbar li {
+   float: left;
+   padding: 0% 5%;
+   list-style-type: none;
+ }
+/* Layout */
+
+section {
+  float: right;
+  width: 70%;
+  text-indent: 20px
+}
+
+aside {
+  float: left;
+  width: 30%;
+  font-family: 'PT Sans Narrow', sans-serif;
+  letter-spacing: 1.2px;
+  word-spacing: 1px;
+
+}
+
+ul {
+  list-style-type: none;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+a { color: #a66
+}
+
+a:focus, a:active {
+  color: green;
+  font-family: 'Playfair Display', serif;
+  font-size: 20px
+  letter-spacing: 1.2px;
+  word-spacing: 1px;
+}
+
+a[href*="http"] {
+  background: url(../img/link.png) no-repeat 100% 0;
+  background-size: 10px 10px;
+  padding-right: 10px;
+}
+
+nav {
+  float: left;
+  width: 100%;
+  font-family: 'PT Sans Narrow', sans-serif;
+  letter-spacing: 1.2px;
+  word-spacing: 1px;
+  background-color: black;
+  margin: 20px;
+  font-size: 30px;
+}
+
+footer {
+  clear: both;
+}
+
+header {
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+
+}
+
+.headings {
+ letter-spacing: 1.5px;
+ font-family: 'Playfair Display', serif;
+
+}
+
+.paragraphs {
+  letter-spacing: 1.2px;
+  word-spacing: 1px;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+header, section, aside, nav, footer {
+  padding: 20px;
+}
+
+/* header and footer */
+
+header, footer {
+  border-top: 5px solid #a66;
+  border-bottom: 5px solid #a66;
+}
+
+/* WRITE YOUR CODE BELOW HERE */
