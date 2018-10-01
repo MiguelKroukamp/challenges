@@ -1,0 +1,21 @@
+/* big box styling */
+    #speech-bubble {
+        width: 120px;
+        height: 80px;
+        background-color: lightskyblue;
+        border-radius: 10px;
+        margin: auto;
+    }
+
+
+/* triangle on the side styling */
+    #speech-bubble:before {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-top: 13px solid transparent;
+        border-right: 26px solid lightskyblue;
+        border-bottom: 13px solid transparent;
+        margin: 13px 0 0 -25px;
+    }

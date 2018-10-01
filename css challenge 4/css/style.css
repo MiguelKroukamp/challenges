@@ -1,0 +1,53 @@
+/* float of containers. left */
+.container {
+  float: left;
+}
+
+/* styling of containers starts here. size and color */
+.box1 {
+    width: 200px;
+    height: 200px;
+    background-color: grey;
+}
+.box2 {
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+}
+.box3 {
+    width: 200px;
+    height: 200px;
+    background-color: violet;
+}
+.box4 {
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+}
+
+/* more styling of the contains. effects on containers */
+.box1:hover {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    transition: 1s;
+}
+.box2:hover:active {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    transition: 1s;
+}
+
+.box3:hover {
+    width: 600px;
+    height: 200px;
+    background-color: green;
+    transition: 1s;
+}
+.box4:hover {
+    width: 50px;
+    height: 200px;
+    background-color: yellow;
+    transition: 1s;
+}
